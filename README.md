@@ -8,7 +8,9 @@
 `yum update`
 ```
 
-![](C:\Users\davea\AppData\Roaming\marktext\images\2023-02-21-13-56-36-image.png)
+{% asset_img 1.png %}
+
+![](F:\Hexo\source\_posts\README\1.png)
 
 #### 安装docker
 
