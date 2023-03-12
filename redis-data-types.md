@@ -24,6 +24,8 @@ Redis is a data structure server. At its core, Redis provides a collection of na
 If you'd like to try a comprehensive tutorial, see the Redis data types tutorial.
 
 > 如果你想要更全面的指导，详情请查看
+> [Redis data types tutorial]()
+<!--more-->
 
 ### Core
 
@@ -36,9 +38,9 @@ Redis string command reference
 
 > redis中strings是用的最多的最基本的数据类型，用byte字节作为存储单位，想看更多，请查看：
 > 
-> [redis strings类型介绍]()
+> [redis strings类型介绍](http://daveafei2.softether.net:4000/2023/03/09/redis-string/)
 > 
-> [redis string命令大全]()
+> [redis string命令大全](http://daveafei2.softether.net:4000/2023/03/09/redis-string-command/)
 
 #### Lists
 
@@ -67,7 +69,8 @@ Redis set command reference
 > [redis sets类型介绍]()
 > 
 > [set命令大全]()
-<!--more-->
+
+
 
 #### Hashes
 
@@ -170,11 +173,13 @@ To extend the features provided by the included data types, use one of these opt
    Redis data types tutorial
 
 >  查看包含的数据类型扩展功能，可以通过以下途径：
+> 
 > 1. 通过lua脚本定制自己的函数
 > 2. 通过[redis modules的API]()开发定制自己的module或者查看[社区已经支持的modules]()
-> 3.  可以通过[redis stack]()查看比如JSON，querying，time series以及其他未知功能
+> 3. 可以通过[redis stack]()查看比如JSON，querying，time series以及其他未知功能
 
 Learning the basic Redis data types and how to use them
+
 > 学习基本数据类型以及如何使用他们
 
 Redis Strings
